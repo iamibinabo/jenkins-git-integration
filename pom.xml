@@ -17,5 +17,14 @@
   </dependencies>
   <build>
     <finalName>jenkins-git-integration</finalName>
+      <plugins>
+            <!-- Maven WAR Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version> <!-- Latest stable version -->
+            </plugin>
+        </plugins>
   </build>
 </project>
+
